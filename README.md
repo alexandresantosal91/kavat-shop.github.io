@@ -1,18 +1,14 @@
- Criação de um web services de Carros usados e novos...
-
-
 <h1 align="center"><br>Kavat Shop</h1>
 
 <!-- 
--->
-
 ![Resultado final do projeto](img/)
 
 <h4 align="center"><a href="https://alexandresantosal91.github.io/kavat-shop/">Clique para visitar o projeto</a></h4>
+-->
 
 ## 📚 Seções
 
-O site é composto por quatro seções:
+O site é composto por três seções:
 
 - **Home:** Página Inicial;
 - **Histórico:** em-breve;
