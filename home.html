@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+  
+    <title>Carros na web - Home</title>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="Esta é uma página para demonstrar as sessões do HTML">
+    
+    
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+  
+  </head>
+  
+  <body>
+    
+    <header>
+
+      <img src="imagens/logo.png" align="middle" alt="Logo da empresa">
+        
+      <h1>Carros na web</h1>
+
+      <nav>
+
+        <ul>
+            <li><a href="home.html" alt="Página inicial" class="current">Home</a></li>
+            <li><a href="sobre.html" alt="Sobre a nossa empresa">Histórico</a></li>
+            <li><a href="contato.html" alt="Entre em contato">Contato</a></li>
+        </ul>
+
+      </nav>
+
+    </header>
+      
+    <section>
+
+      <h2>Sessão de carros usados</h2>
+
+      <article>
+        
+        <img src="imagens/azul.png" alt="Carro azul">
+        <h3>Carro usado Azul</h3>
+        <p>Carro muito legal!</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(5300)"/>
+
+      </article>
+
+      <article>
+
+        <img src="imagens/vermelho.png" alt="Carro vermelho">
+        <h3>Carro Vermelho quase novo</h3>
+        <p>Carro muito bom.</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(6500)"/>
+        
+      </article>
+        
+      <article>
+
+          <img src="imagens/verde.png" alt="Carro verde">
+          <h3>Carro Verde em bom estado</h3>
+          <p>Carro ok.</p>
+          <input type="button" value="Mostrar preço" onclick="mostrarPreco(2000)"/>            
+
+      </article>
+        
+      <article>
+
+        <img src="imagens/laranja.png" alt="Carro laranja">
+        <h3>Carro usado Laranja</h3>
+        <p>Carro colorido</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(3450)"/>            
+        
+      </article>
+
+      <article>
+
+        <img src="imagens/preto.png" alt="Carro preto">
+        <h3>Carro Preto em ótimo estado</h3>
+        <p>Carro excelente.</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(2100)"/>            
+          
+      </article>
+      
+      <article>
+
+        <img src="imagens/cinza.png" alt="Carro cinza">
+        <h3>Carro Cinza bom</h3>
+        <p>Funcionando</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(7000)"/>            
+            
+      </article>
+    
+    </section>
+    
+    <section>
+
+      <h2>Sessão de carros novos</h2>
+
+      <article>
+
+        <img src="imagens/azul.png" alt="Carro azul">
+        <h3>Carro Azul novo</h3>
+        <p>Não perca</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(20500)"/>            
+          
+      </article>
+
+      <article>
+
+        <img src="imagens/vermelho.png" alt="Carro vermelho">
+        <h3>Carro Vermelho 0km</h3>
+        <p>Guie o carro de seus sonhos</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(19100)"/>            
+          
+      </article>
+          
+      <article>
+
+        <img src="imagens/verde.png" alt="Carro verde">  
+        <h3>Carro Verde pronta entrega</h3>
+        <p>Não perca tempo</p>
+        <input type="button" value="Mostrar preço" onclick="mostrarPreco(35500)"/>            
+          
+      </article>
+
+    </section>
+      
+    <footer>
+
+      <hr>
+
+      <p>Todos os direitos reservados. &copy; 2019</p> 
+
+      <input type="button" value="Mudar cor de fundo" onclick="mudarCorFundo()" />
+
+      <p onmouseover="mudarTodosCabecalhos()">Passe o mouse aqui!</p>
+    </footer>
+
+  </body>
+
+</html>
