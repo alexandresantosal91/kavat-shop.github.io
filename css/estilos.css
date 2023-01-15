@@ -2,6 +2,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*noinspection CssInvalidPropertyValue*/
 h1 {
   display: inline;
   vertical-align: -webkit-baseline-middle;
@@ -17,7 +18,7 @@ nav {
   background-color:#777;  
   font-size: 1.3em;
   margin: 5pt;
-  padding: 1pt 0pt 1pt 0pt;
+  padding: 1pt 0 1pt 0;
   word-spacing: 5pt;
 }
 nav li {
