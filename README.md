@@ -3,7 +3,7 @@
 
 ![Resultado final do projeto](img/tela-1.png)
 
-<h4 align="center"><a href="https://alexandresantosal91.github.io/kavat-shop/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://alexandresantosal91.github.io/kavat-shop.github.io/">Clique para visitar o projeto</a></h4>
 
 
 ## 📚 Seções
